@@ -20,3 +20,6 @@ Exercises (scripts) made as part of the laboratory:
 	* library: rpart, caret, party
 	* practical purpose: build classifier which can determine wine quality based on other physical and chemical factors.
 	* how: firstly, discretize qualities on bad, medium and premium; then try to create the best classifier by controlling rpart.control. Classifiers were evaluated using F-measure (with precision and accuracy equally important -> β = 0).
+3. Clustering
+	* database: database based on https://www.kaggle.com/abcsds/pokemon
+	* practical purpose: finding best possible clustering for pokemons (without using their types)
