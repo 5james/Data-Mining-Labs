@@ -10,3 +10,13 @@ Exercises (scripts) made as part of the laboratory:
 	* practical purpose: search for patterns leading to: Hypoglycemia, Hyperglycemia and Hypoglycemia symptoms 
 	* library: arulesSequences (with cSPADE)
 	* how: discretize all doses of insulin (regular, NPH and UltraLente) and results of blood glucose measurement, then search for all sequences leading to either high / low glucose measurement or Hypoglycemia symptoms 
+3. Classification and Classifiers
+	* database: http://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-white.csv (varaibles in detail: http://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/)
+	* library: rpart, caret, party
+	* practical purpose: build classifier which can determine wine quality based on other physical and chemical factors.
+	* how: firstly, discretize qualities on bad, medium and premium; then try to create the best classifier by controlling rpart.control. Classifiers were evaluated using F-measure (with precision and accuracy equally important -> β = 0).
+3. Classification and Classifiers
+	* database: http://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-white.csv (varaibles in detail: http://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/)
+	* library: rpart, caret, party
+	* practical purpose: build classifier which can determine wine quality based on other physical and chemical factors.
+	* how: firstly, discretize qualities on bad, medium and premium; then try to create the best classifier by controlling rpart.control. Classifiers were evaluated using F-measure (with precision and accuracy equally important -> β = 0).
